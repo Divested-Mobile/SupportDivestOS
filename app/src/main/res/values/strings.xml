@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Support</string>
+    <string name="lblHeader">Here are various\nDivestOS related resources:</string>
+    <string name="btnWebsite">Website</string>
+    <string name="btnNews">News</string>
+    <string name="btnDonate">Donate</string>
+    <string name="btnChat">Chat (XMPP)</string>
+    <string name="btnRecommendedApps">Recommended Apps</string>
+    <string name="btnCredits">Credits and Notices</string>
+    <string name="btnSourceCode">Source Code</string>
+    <string name="btnPrivacyPolicy">Privacy Policy</string>
+    <string name="xmppRequiredTitle">XMPP Client Required</string>
+    <string name="xmppRequiredDescription">You do not appear to have an XMPP client installed. Would you like to install one from F-Droid?</string>
+</resources>
