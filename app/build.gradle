@@ -8,12 +8,17 @@ android {
     defaultConfig {
         applicationId "org.divestos.supportdivestos"
         minSdk 21
-        targetSdk 32
-        versionCode 4
+        targetSdk 33
+        versionCode 5
         versionName "1.0"
     }
 
     buildTypes {
+        debug {
+            applicationIdSuffix ".debug"
+            minifyEnabled true
+            zipAlignEnabled true
+        }
         release {
             shrinkResources true
             minifyEnabled true
@@ -31,7 +36,4 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.5.1'
-    implementation 'com.google.android.material:material:1.6.1'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
 }
