@@ -22,7 +22,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
         findViewById(R.id.btnWebsite).setOnClickListener(this);
         findViewById(R.id.btnNews).setOnClickListener(this);
-        findViewById(R.id.btnChat).setOnClickListener(this);
+        findViewById(R.id.btnChatXmpp).setOnClickListener(this);
+        findViewById(R.id.btnChatMatrix).setOnClickListener(this);
         findViewById(R.id.btnRecommendedApps).setOnClickListener(this);
         findViewById(R.id.btnCredits).setOnClickListener(this);
         findViewById(R.id.btnDonate).setOnClickListener(this);
@@ -44,8 +45,12 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 openWebsite("https://divested.dev/donate");
                 break;
             }
-            case R.id.btnChat: {
+            case R.id.btnChatXmpp: {
                 openXMPP("xmpp:divestos-mobile@conference.konvers.me?join");
+                break;
+            }
+            case R.id.btnChatMatrix: {
+                openWebsite("https://matrix.to/#/#xmpp_divestos-mobile_conference.konvers.me:matrix.org");
                 break;
             }
             case R.id.btnRecommendedApps: {

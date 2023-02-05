@@ -39,10 +39,17 @@
         android:textSize="30sp" />
 
     <Button
-        android:id="@+id/btnChat"
+        android:id="@+id/btnChatXmpp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btnChat"
+        android:text="@string/btnChatXmpp"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/btnChatMatrix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnChatMatrix"
         android:textSize="30sp" />
 
     <Button
