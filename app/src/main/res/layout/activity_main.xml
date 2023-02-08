@@ -14,7 +14,7 @@
         android:text="@string/lblHeader"
         android:textAlignment="center"
         android:textAppearance="@android:style/TextAppearance.Material.Large"
-        android:textSize="45sp"
+        android:textSize="35sp"
         android:textStyle="bold"/>
 
     <Button
@@ -22,62 +22,62 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnWebsite"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnNews"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnNews"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnDonate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnDonate"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnChatXmpp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnChatXmpp"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnChatMatrix"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnChatMatrix"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnRecommendedApps"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnRecommendedApps"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnCredits"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnCredits"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnSourceCode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btnSourceCode"
-        android:textSize="30sp" />
+        android:textSize="20sp" />
 
     <Button
         android:id="@+id/btnPrivacyPolicy"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="30sp"
+        android:textSize="20sp"
         android:text="@string/btnPrivacyPolicy" />
 
 </LinearLayout>

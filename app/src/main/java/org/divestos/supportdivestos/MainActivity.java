@@ -54,7 +54,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             }
             case R.id.btnNews: {
-                openWebsite("https://divestos.org/index.php?page=news");
+                openWebsite("https://divestos.org/pages/news");
                 break;
             }
             case R.id.btnDonate: {
@@ -70,11 +70,11 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             }
             case R.id.btnRecommendedApps: {
-                openWebsite("https://divestos.org/index.php?page=recommended_apps");
+                openWebsite("https://divestos.org/pages/recommended_apps");
                 break;
             }
             case R.id.btnCredits: {
-                openWebsite("https://divestos.org/index.php?page=about#credits");
+                openWebsite("https://divestos.org/pages/about#credits");
                 break;
             }
             case R.id.btnSourceCode: {
@@ -82,7 +82,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             }
             case R.id.btnPrivacyPolicy: {
-                openWebsite("https://divestos.org/index.php?page=privacy_policy");
+                openWebsite("https://divestos.org/pages/privacy_policy");
                 break;
             }
         }
