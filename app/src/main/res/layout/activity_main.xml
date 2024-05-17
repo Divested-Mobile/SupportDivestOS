@@ -73,4 +73,25 @@
         android:textSize="20sp"
         android:text="@string/btnPrivacyPolicy" />
 
+    <Button
+        android:id="@+id/btnWebsiteCloudflare"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnWebsiteCloudflare"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnWebsiteOnionPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnWebsiteOnionPrimary"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnWebsiteOnionSecondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnWebsiteOnionSecondary"
+        android:textSize="20sp" />
+
 </LinearLayout>

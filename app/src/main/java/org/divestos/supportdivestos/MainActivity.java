@@ -44,6 +44,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.btnDonate).setOnClickListener(this);
         findViewById(R.id.btnSourceCode).setOnClickListener(this);
         findViewById(R.id.btnPrivacyPolicy).setOnClickListener(this);
+        findViewById(R.id.btnWebsiteCloudflare).setOnClickListener(this);
+        findViewById(R.id.btnWebsiteOnionPrimary).setOnClickListener(this);
+        findViewById(R.id.btnWebsiteOnionSecondary).setOnClickListener(this);
     }
 
     public void onClick(View v) {
@@ -78,6 +81,18 @@ public class MainActivity extends Activity implements View.OnClickListener {
             }
             case R.id.btnPrivacyPolicy: {
                 openBrowser("https://divestos.org/pages/privacy_policy");
+                break;
+            }
+            case R.id.btnWebsiteCloudflare: {
+                openBrowser("https://divestos.eeyo.re");
+                break;
+            }
+            case R.id.btnWebsiteOnionPrimary: {
+                openBrowser("http://divestoseb5nncsydt7zzf5hrfg44md4bxqjs5ifcv4t7gt7u6ohjyyd.onion");
+                break;
+            }
+            case R.id.btnWebsiteOnionSecondary: {
+                openBrowser("http://2ceyag7ppvhliszes2v25n5lmpwhzqrc7sv72apqka6hwggfi42y2uid.onion");
                 break;
             }
         }
