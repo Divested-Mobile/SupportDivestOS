@@ -6,92 +6,103 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center">
+	<ScrollView
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+            android:gravity="center">
+		<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		    xmlns:tools="http://schemas.android.com/tools"
+		    tools:context=".MainActivity"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:orientation="vertical"
+		    android:gravity="center">
+		    <TextView
+			android:id="@+id/lblHeader"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/lblHeader"
+			android:textAlignment="center"
+			android:textAppearance="@android:style/TextAppearance.Material.Large"
+			android:textSize="35sp"
+			android:textStyle="bold"/>
 
-    <TextView
-        android:id="@+id/lblHeader"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/lblHeader"
-        android:textAlignment="center"
-        android:textAppearance="@android:style/TextAppearance.Material.Large"
-        android:textSize="35sp"
-        android:textStyle="bold"/>
+		    <Button
+			android:id="@+id/btnWebsite"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btnWebsite"
+			android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/btnWebsite"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btnWebsite"
-        android:textSize="20sp" />
+		    <Button
+			android:id="@+id/btnNews"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btnNews"
+			android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/btnNews"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btnNews"
-        android:textSize="20sp" />
+		    <Button
+			android:id="@+id/btnDonate"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btnDonate"
+			android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/btnDonate"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btnDonate"
-        android:textSize="20sp" />
+		    <Button
+			android:id="@+id/btnChatXmpp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btnChatXmpp"
+			android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/btnChatXmpp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btnChatXmpp"
-        android:textSize="20sp" />
+		    <Button
+			android:id="@+id/btnRecommendedApps"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btnRecommendedApps"
+			android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/btnRecommendedApps"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btnRecommendedApps"
-        android:textSize="20sp" />
+		    <Button
+			android:id="@+id/btnCredits"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btnCredits"
+			android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/btnCredits"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btnCredits"
-        android:textSize="20sp" />
+		    <Button
+			android:id="@+id/btnSourceCode"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btnSourceCode"
+			android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/btnSourceCode"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btnSourceCode"
-        android:textSize="20sp" />
+		    <Button
+			android:id="@+id/btnPrivacyPolicy"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textSize="20sp"
+			android:text="@string/btnPrivacyPolicy" />
 
-    <Button
-        android:id="@+id/btnPrivacyPolicy"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="@string/btnPrivacyPolicy" />
+		    <Button
+			android:id="@+id/btnWebsiteCloudflare"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btnWebsiteCloudflare"
+			android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/btnWebsiteCloudflare"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btnWebsiteCloudflare"
-        android:textSize="20sp" />
+		    <Button
+			android:id="@+id/btnWebsiteOnionPrimary"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btnWebsiteOnionPrimary"
+			android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/btnWebsiteOnionPrimary"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btnWebsiteOnionPrimary"
-        android:textSize="20sp" />
-
-    <Button
-        android:id="@+id/btnWebsiteOnionSecondary"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btnWebsiteOnionSecondary"
-        android:textSize="20sp" />
-
+		    <Button
+			android:id="@+id/btnWebsiteOnionSecondary"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="@string/btnWebsiteOnionSecondary"
+			android:textSize="20sp" />
+		</LinearLayout>
+	</ScrollView>
 </LinearLayout>
