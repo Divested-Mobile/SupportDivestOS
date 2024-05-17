@@ -9,7 +9,7 @@ android {
         applicationId "org.divestos.supportdivestos"
         minSdk 21
         targetSdk 33
-        versionCode 8
+        versionCode 9
         versionName "1.0"
     }
 

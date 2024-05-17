@@ -39,7 +39,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
         findViewById(R.id.btnWebsite).setOnClickListener(this);
         findViewById(R.id.btnNews).setOnClickListener(this);
         findViewById(R.id.btnChatXmpp).setOnClickListener(this);
-        findViewById(R.id.btnChatMatrix).setOnClickListener(this);
         findViewById(R.id.btnRecommendedApps).setOnClickListener(this);
         findViewById(R.id.btnCredits).setOnClickListener(this);
         findViewById(R.id.btnDonate).setOnClickListener(this);
@@ -50,46 +49,42 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btnWebsite: {
-                openWebsite("https://divestos.org");
+                openBrowser("https://divestos.org");
                 break;
             }
             case R.id.btnNews: {
-                openWebsite("https://divestos.org/pages/news");
+                openBrowser("https://divestos.org/pages/news");
                 break;
             }
             case R.id.btnDonate: {
-                openWebsite("https://divested.dev/donate");
+                openBrowser("https://divested.dev/donate");
                 break;
             }
             case R.id.btnChatXmpp: {
                 openXMPP("xmpp:divestos-mobile@conference.konvers.me?join");
                 break;
             }
-            case R.id.btnChatMatrix: {
-                openWebsite("https://matrix.to/#/#xmpp_divestos-mobile_conference.konvers.me:matrix.org");
-                break;
-            }
             case R.id.btnRecommendedApps: {
-                openWebsite("https://divestos.org/pages/recommended_apps");
+                openBrowser("https://divestos.org/pages/recommended_apps");
                 break;
             }
             case R.id.btnCredits: {
-                openWebsite("https://divestos.org/pages/about#credits");
+                openBrowser("https://divestos.org/pages/about#credits");
                 break;
             }
             case R.id.btnSourceCode: {
-                openWebsite("https://gitlab.com/divested-mobile");
+                openBrowser("https://gitlab.com/divested-mobile");
                 break;
             }
             case R.id.btnPrivacyPolicy: {
-                openWebsite("https://divestos.org/pages/privacy_policy");
+                openBrowser("https://divestos.org/pages/privacy_policy");
                 break;
             }
         }
     }
 
-    public void openWebsite(String website) {
-        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(website));
+    public void openBrowser(String url) {
+        Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
         startActivity(browserIntent);
     }
 
@@ -99,7 +94,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
             new AlertDialog.Builder(this)
                     .setTitle(getString(R.string.xmppRequiredTitle))
                     .setMessage(getString(R.string.xmppRequiredDescription))
-                    .setPositiveButton(android.R.string.yes, (dialog, which) -> openWebsite("https://f-droid.org/en/packages/eu.siacs.conversations/"))
+                    .setPositiveButton(android.R.string.yes, (dialog, which) -> openBrowser("https://f-droid.org/en/packages/eu.siacs.conversations/"))
                     .setNegativeButton(android.R.string.no, null)
                     .show();
         } else {

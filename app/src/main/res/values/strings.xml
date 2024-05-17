@@ -5,7 +5,6 @@
     <string name="btnNews">News</string>
     <string name="btnDonate">Donate</string>
     <string name="btnChatXmpp">Chat (XMPP)</string>
-    <string name="btnChatMatrix">Chat (Matrix)</string>
     <string name="btnRecommendedApps">Recommended Apps</string>
     <string name="btnCredits">Credits and Notices</string>
     <string name="btnSourceCode">Source Code</string>
