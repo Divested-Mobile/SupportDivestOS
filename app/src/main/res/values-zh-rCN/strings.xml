@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="btnDonate">捐款</string>
+    <string name="btnWebsite">网址</string>
+    <string name="btnWebsiteOnionPrimary">网址 (Onion #1)</string>
+    <string name="btnWebsiteOnionSecondary">网址 (Onion #2)</string>
+    <string name="btnNews">新闻</string>
+    <string name="app_name">支持</string>
+    <string name="btnSourceCode">源码</string>
+    <string name="btnRecommendedApps">推荐使用的Apps</string>
+    <string name="btnCredits">致谢与声明</string>
+    <string name="xmppRequiredDescription">您似乎没有安装 XMPP 客户端。您想从 F-Droid 安装它吗？</string>
+    <string name="xmppRequiredTitle">需要XMPP客户端</string>
+    <string name="btnPrivacyPolicy">隐私政策</string>
+    <string name="lblHeader">以下是
+\n关于 DivestOS 的各种资源：</string>
+    <string name="btnWebsiteCloudflare">网址 (Cloudflare 镜像)</string>
+    <string name="btnChatXmpp">交流 (XMPP)</string>
+</resources>
