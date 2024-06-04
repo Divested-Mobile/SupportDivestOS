@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="lblHeader">Ovdje su razni resursi povezani s 
+\nDivestOS-om:</string>
+    <string name="btnWebsiteCloudflare">Web stranica (Cloudflare mirror)</string>
+    <string name="btnWebsiteOnionPrimary">Web stranica (Onion #1)</string>
+    <string name="btnWebsiteOnionSecondary">Web stranica (Onion #2)</string>
+    <string name="btnNews">Vijesti</string>
+    <string name="btnDonate">Donirajte</string>
+    <string name="btnRecommendedApps">Preporučene aplikacije</string>
+    <string name="btnSourceCode">Izvorni kod</string>
+    <string name="btnChatXmpp">Čavrljanje (XMPP)</string>
+    <string name="xmppRequiredTitle">Potreban XMPP klijent</string>
+    <string name="xmppRequiredDescription">Čini se da nemate instaliran XMPP klijent. Želite li instalirati jedan s F-Droida?</string>
+    <string name="app_name">Podrška</string>
+    <string name="btnWebsite">Web stranica</string>
+    <string name="btnCredits">Zasluge i obavijesti</string>
+    <string name="btnPrivacyPolicy">Politika privatnosti</string>
+</resources>
