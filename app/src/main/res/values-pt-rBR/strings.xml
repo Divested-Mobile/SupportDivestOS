@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Suporte</string>
+    <string name="lblHeader">Aqui estão
+\nvários recursos relacionados ao DivestOS:</string>
+    <string name="btnWebsite">Site</string>
+    <string name="btnWebsiteCloudflare">Site (espelho na Cloudflare)</string>
+    <string name="btnWebsiteOnionPrimary">Site (Onion #1)</string>
+    <string name="btnWebsiteOnionSecondary">Site (Onion #2)</string>
+    <string name="btnNews">Notícias</string>
+    <string name="btnDonate">Doar</string>
+    <string name="btnChatXmpp">Chat (XMPP)</string>
+    <string name="btnRecommendedApps">Aplicativos Recomendados</string>
+    <string name="btnCredits">Créditos e Menções</string>
+    <string name="btnSourceCode">Código-fonte</string>
+    <string name="btnPrivacyPolicy">Política de Privacidade</string>
+    <string name="xmppRequiredTitle">Cliente XMPP requerido</string>
+    <string name="xmppRequiredDescription">Você não parece ter um cliente XMPP instalado. Você gostaria de baixar um do F-Droid?</string>
+</resources>
