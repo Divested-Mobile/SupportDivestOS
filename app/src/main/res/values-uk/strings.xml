@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="btnWebsite">Вебсайт</string>
+    <string name="btnWebsiteCloudflare">Вебсайт (дзеркало Cloudflare)</string>
+    <string name="btnWebsiteOnionPrimary">Вебсайт (Onion #1)</string>
+    <string name="btnNews">Новини</string>
+    <string name="btnDonate">Пожертвувати</string>
+    <string name="btnChatXmpp">Чат (XMPP)</string>
+    <string name="btnRecommendedApps">Рекомендовані застосунки</string>
+    <string name="btnCredits">Подяки та примітки</string>
+    <string name="btnSourceCode">Вихідний код</string>
+    <string name="btnPrivacyPolicy">Політика конфіденційності</string>
+    <string name="xmppRequiredTitle">Необхідний клієнт XMPP</string>
+    <string name="xmppRequiredDescription">Здається, у вас не встановлено клієнт XMPP. Бажаєте встановити його з F-Droid?</string>
+    <string name="app_name">Підтримка</string>
+    <string name="btnWebsiteOnionSecondary">Вебсайт (Onion #2)</string>
+    <string name="lblHeader">Ось різні ресурси,
+\nпов\'язані з DivestOS:</string>
+</resources>
