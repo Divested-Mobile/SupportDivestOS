@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="btnWebsite">Webseite</string>
+    <string name="btnWebsiteCloudflare">Webseite (via Cloudflare)</string>
+    <string name="btnWebsiteOnionPrimary">Webseite (Onion #1)</string>
+    <string name="btnNews">Neuigkeiten</string>
+    <string name="btnChatXmpp">Chat (XMPP)</string>
+    <string name="app_name">Unterstützen</string>
+    <string name="btnRecommendedApps">Empfohlene Apps</string>
+    <string name="btnCredits">Mitwirkende und Notizen</string>
+    <string name="btnSourceCode">Quellcode</string>
+    <string name="btnPrivacyPolicy">Datenschutzrichtlinie</string>
+    <string name="xmppRequiredTitle">XMPP Client benötigt</string>
+    <string name="xmppRequiredDescription">Es scheint kein XMPP Client installiert zu sein. Möchtest du einen von F-Droid installieren?</string>
+    <string name="lblHeader">Hier sind verschiedene
+\nDivestOS bezogene Quellen:</string>
+    <string name="btnWebsiteOnionSecondary">Wesbeite (Onion #2)</string>
+    <string name="btnDonate">Spenden</string>
+</resources>
