@@ -14,6 +14,6 @@
     <string name="xmppRequiredDescription">Es scheint kein XMPP Client installiert zu sein. Möchtest du einen von F-Droid installieren?</string>
     <string name="lblHeader">Hier sind verschiedene
 \nDivestOS bezogene Quellen:</string>
-    <string name="btnWebsiteOnionSecondary">Wesbeite (Onion #2)</string>
+    <string name="btnWebsiteOnionSecondary">Webseite (Onion #2)</string>
     <string name="btnDonate">Spenden</string>
 </resources>

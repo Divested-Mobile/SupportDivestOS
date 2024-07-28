@@ -13,6 +13,15 @@ Credits
 -------
 - Icons: Google/Android/AOSP, License: Apache 2.0, https://google.github.io/material-design-icons/
 
+Translations
+------------
+- Chinese (Simplified): Crit, 大王叫我来巡山
+- Croatian: lukapiplica
+- German: thereisnoanderson
+- Portuguese (Brazil): lucasmz-dev
+- Spanish: gallegonovato
+- Ukrainian: Fqwe1
+
 Donate
 -------
 - https://divested.dev/donate
