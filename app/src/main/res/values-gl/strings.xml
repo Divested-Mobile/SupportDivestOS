@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Axuda</string>
+    <string name="lblHeader">Aquí tes varios recursos
+\nrelacionados con DivestOS:</string>
+    <string name="btnWebsite">Sitio web</string>
+    <string name="btnWebsiteCloudflare">Sitio web (Espello en Cloudflare)</string>
+    <string name="btnWebsiteOnionPrimary">Sitio web (Onion #1)</string>
+    <string name="btnWebsiteOnionSecondary">Sitio web (Onion #2)</string>
+    <string name="btnNews">Novas</string>
+    <string name="btnDonate">Doar</string>
+    <string name="btnChatXmpp">Chat (XMPP)</string>
+    <string name="btnRecommendedApps">Apps recomendadas</string>
+    <string name="btnCredits">Crédito e Avisos</string>
+    <string name="btnSourceCode">Código fonte</string>
+    <string name="btnPrivacyPolicy">Política de privacidade</string>
+    <string name="xmppRequiredTitle">Require un cliente XMPP</string>
+    <string name="xmppRequiredDescription">Semella que non tes un cliente XMPP instalado. Queres instalar un desde F-Droid?</string>
+</resources>
