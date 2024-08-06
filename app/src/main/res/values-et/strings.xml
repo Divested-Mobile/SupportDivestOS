@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Kasutajatugi ja teave</string>
+    <string name="lblHeader">Järgnevas on mitmed
+\nDivestOSiga seotud vajalikud lingid:</string>
+    <string name="btnWebsite">Veebisait</string>
+    <string name="btnWebsiteCloudflare">Veebisait (peegelsait Cloudfare pilves)</string>
+    <string name="btnWebsiteOnionPrimary">Veebisait (Onion #1)</string>
+    <string name="btnWebsiteOnionSecondary">Veebisait (Onion #2)</string>
+    <string name="btnNews">Uudised</string>
+    <string name="btnDonate">Toeta arendajat</string>
+    <string name="btnChatXmpp">Vestlus (XMPP)</string>
+    <string name="btnRecommendedApps">Soovitatud rakendused</string>
+    <string name="btnCredits">Tänuavaldused ja teated</string>
+    <string name="btnSourceCode">Lähtekood</string>
+    <string name="btnPrivacyPolicy">Privaatsuspoliitika</string>
+    <string name="xmppRequiredTitle">XMPP klient on vajalik</string>
+    <string name="xmppRequiredDescription">Sinu nutiseadmes ei tundu leiduvat XMPP klienti. Kas sa sooviksid ühe sellise paigaldada F-Droidi rakendustepoest?</string>
+</resources>
