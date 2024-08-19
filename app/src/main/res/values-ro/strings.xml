@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Ajutor</string>
+    <string name="btnWebsite">Website</string>
+    <string name="btnWebsiteOnionPrimary">Website (Onion #1)</string>
+    <string name="btnWebsiteOnionSecondary">Website (Onion #2)</string>
+    <string name="btnNews">Noutăți</string>
+    <string name="btnDonate">Donează</string>
+    <string name="btnChatXmpp">Chat (XMPP)</string>
+    <string name="btnRecommendedApps">Aplicații recomandate</string>
+    <string name="btnCredits">Credite și înștințări</string>
+    <string name="btnSourceCode">Cod sursă</string>
+    <string name="xmppRequiredTitle">Un client XMPP este necesar</string>
+    <string name="xmppRequiredDescription">Se pare ca nu aveți instalat un client XMPP. Doriți să instalați unul din F-Droid?</string>
+    <string name="btnPrivacyPolicy">Polița de confidențialitate</string>
+    <string name="lblHeader">Aici sunt diverse
+\nresurse legate de DivestOS:</string>
+</resources>
