@@ -15,4 +15,5 @@
     <string name="btnPrivacyPolicy">Polița de confidențialitate</string>
     <string name="lblHeader">Aici sunt diverse
 \nresurse legate de DivestOS:</string>
+    <string name="btnWebsiteCloudflare">Website (server Cloudflare)</string>
 </resources>
