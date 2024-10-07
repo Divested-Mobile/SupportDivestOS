@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">Podpora</string>
+    <string name="lblHeader">Zde jsou různé\nzdroje týkající se DivestOS:</string>
+    <string name="btnWebsite">Web</string>
+    <string name="btnWebsiteCloudflare">Web (zrcadlo Cloudflare)</string>
+    <string name="btnWebsiteOnionPrimary">Web (Onion #1)</string>
+    <string name="btnWebsiteOnionSecondary">Web (Onion #2)</string>
+    <string name="btnNews">Novinky</string>
+    <string name="btnDonate">Darovat</string>
+    <string name="btnChatXmpp">Chat (XMPP)</string>
+    <string name="btnRecommendedApps">Doporučené aplikace</string>
+    <string name="btnSourceCode">Zdrojový kód</string>
+    <string name="btnCredits">Poděkování</string>
+    <string name="btnPrivacyPolicy">Ochrana údajů</string>
+    <string name="xmppRequiredTitle">Vyžadován klient XMPP</string>
+    <string name="xmppRequiredDescription">Zdá se, že nemáte nainstalovaný klient XMPP. Chcete jej nainstalovat z obchodu F-Droid?</string>
+</resources>
