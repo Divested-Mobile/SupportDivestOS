@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="btnWebsiteCloudflare">الموقع (مرآة Cloudflare)</string>
+    <string name="btnWebsiteOnionPrimary">الموقع (البصل #1)</string>
+    <string name="btnWebsiteOnionSecondary">الموقع (البصل #2)</string>
+    <string name="btnNews">الأخبار</string>
+    <string name="btnDonate">تبرّع</string>
+    <string name="btnChatXmpp">الدردشة (XMPP)</string>
+    <string name="btnCredits">الاعتمادات والملاحظات</string>
+    <string name="btnSourceCode">المصدر البرمجي</string>
+    <string name="btnPrivacyPolicy">سياسة الخصوصية</string>
+    <string name="xmppRequiredTitle">مطلوب عميل XMPP</string>
+    <string name="xmppRequiredDescription">يبدو أنك لم تثبّت عميل XMPP. هل ترغب في تثبيت واحد من F-Droid؟</string>
+    <string name="app_name">الدعم</string>
+    <string name="lblHeader">فيما يلي العديد\nمن الموارد المتعلقة بـ DivestOS:</string>
+    <string name="btnWebsite">الموقع</string>
+    <string name="btnRecommendedApps">التطبيقات الموصى بها</string>
+</resources>
