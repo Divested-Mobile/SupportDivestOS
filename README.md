@@ -20,7 +20,7 @@ Translations
 - Croatian: lukapiplica
 - Czech: Fjuro
 - Estonian: Priit Jõerüüt
-- Galacian: josé m
+- Galician: josé m
 - German: thereisnoanderson
 - Italian: Dark Space
 - Portuguese (Brazil): lucasmz-dev
