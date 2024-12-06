@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="btnRecommendedApps">Препоръчани приложения</string>
+    <string name="lblHeader">Тук има различни\nРесурси, свързани с DivestOS:</string>
+    <string name="btnSourceCode">Изходен код</string>
+    <string name="btnWebsiteCloudflare">Уебсайт (огледало на Cloudflare)</string>
+    <string name="btnWebsite">Уебсайт</string>
+    <string name="btnWebsiteOnionPrimary">Уебсайт (Onion #1)</string>
+    <string name="btnWebsiteOnionSecondary">Уебсайт (Onion #2)</string>
+    <string name="btnNews">Новини</string>
+    <string name="btnDonate">Дарете</string>
+    <string name="btnChatXmpp">Чат (XMPP)</string>
+    <string name="btnCredits">Кредити и известия</string>
+    <string name="btnPrivacyPolicy">Политика за поверителност</string>
+    <string name="xmppRequiredTitle">Изисква се XMPP клиент</string>
+    <string name="xmppRequiredDescription">Изглежда, че нямате инсталиран XMPP клиент. Искате ли да инсталирате такъв от F-Droid?</string>
+    <string name="app_name">Поддръжка</string>
+</resources>
