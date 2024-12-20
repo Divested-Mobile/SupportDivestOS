@@ -1,2 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources></resources>
+<resources>
+    <string name="app_name">உதவி</string>
+    <string name="lblHeader">இங்கே பல்வேறு\n டிவெச்டோச் தொடர்பான வளங்கள்:</string>
+    <string name="btnWebsite">வலைத்தளம்</string>
+    <string name="btnWebsiteCloudflare">வலைத்தளம் (கிளவுட்ஃப்ளேர் மிரர்)</string>
+    <string name="btnWebsiteOnionPrimary">வலைத்தளம் (வெங்காயம் #1)</string>
+    <string name="btnWebsiteOnionSecondary">வலைத்தளம் (வெங்காயம் #2)</string>
+    <string name="btnNews">செய்தி</string>
+    <string name="btnDonate">நன்கொடை</string>
+    <string name="btnChatXmpp">அரட்டை (xmpp)</string>
+    <string name="btnRecommendedApps">பரிந்துரைக்கப்பட்ட பயன்பாடுகள்</string>
+    <string name="btnCredits">வரவு மற்றும் அறிவிப்புகள்</string>
+    <string name="btnSourceCode">மூலக் குறியீடு</string>
+    <string name="btnPrivacyPolicy">தனியுரிமைக் கொள்கை</string>
+    <string name="xmppRequiredTitle">எக்ச்எம்பிபி வாங்கி தேவை</string>
+    <string name="xmppRequiredDescription">நீங்கள் ஒரு எக்ச்எம்பிபி கிளையன்ட் நிறுவப்பட்டிருப்பதாகத் தெரியவில்லை. எஃப்-டிராய்டில் இருந்து ஒன்றை நிறுவ விரும்புகிறீர்களா?</string>
+</resources>
